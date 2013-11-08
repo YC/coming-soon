@@ -8,6 +8,8 @@ Multi-Browser Support (Up to Date Major Browsers),
 Responsive Design
 
 Upcoming Features:
-Live Demo,
 More Multi Browser Support,
 Documentation
+
+[Demo](http://cfws.github.io/coming-soon/)
+[[images/scr.png]]
