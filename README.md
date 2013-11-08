@@ -12,4 +12,4 @@ More Multi Browser Support,
 Documentation
 
 [Demo](http://cfws.github.io/coming-soon/)
-[[images/scr.png]]
+![alt tag](images/scr.png)
