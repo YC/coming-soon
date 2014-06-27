@@ -12,19 +12,18 @@
     
     h1,h2,img,h3,body,html {margin:0;padding:0;} /*Basic/Quick CSS Reset*/
     
-    #mainpg
-    {
-        margin:0 auto;
-        font-family:inherit; /*Inherit Parent Font*/
-        width:100%;
-        position:absolute; top:0; bottom:0; left:0; right:0;
-        margin:auto; height:70%;
-        /*Centering - http://blog.themeforest.net/tutorials/vertical-centering-with-css/*/
-        }
+	html
+	{
+		height:100%;
+	}
 
-    body{
-        font-family: 'Quicksand Light', sans-serif; /*Default Font*/
+    body
+	{
+        font-family: 'Quicksand', sans-serif; /*Default Font*/
+		width:100%;
+		height:100%;
 		text-align:center; /*Align Text to Center*/
+		display:table;
 		font-weight: 300; /*Use Light Variation of Font*/
 		color:#099; /*Text Colour*/
 		-moz-animation: fadeinelement 3s; /*Mozilla*/
@@ -32,10 +31,17 @@
 		-o-animation: fadeinelement 3s; /*Opera*/
 		-ms-animation: fadeinelement 3s; /*Microsoft*/
 		animation: fadeinelement 3s; /*Main*/
-        width:100%;
 		background-color:#fff; /*Background Colour of Page*/
     }
 
+	#main
+    {
+        font-family:inherit; /*Inherit Parent Font*/
+		vertical-align:middle;
+		display:table-cell;
+		text-align:center;
+	}
+	
     #progress
 	{
         width:40%; /*Changes Percentage of Bar Total Width*/
@@ -58,7 +64,6 @@
 		-ms-animation: proanimate 5s; /*Microsoft*/
 		animation: proanimate 5s; /*Main*/
 	}
-    
     h2,h1
 	{
 		color:inherit; /*Inherit Colours from Body*/
@@ -68,12 +73,15 @@
 		-o-transition-duration:.6s; /*Opera*/
 		-webkit-transition-duration:.6s; /*Webkit*/
 		transition-duration:.6s; /*Main*/
-        margin:15px 0; /*Top/Bottom Margin for Space*/
+        margin:10px 0; /*Top/Bottom Margin for Space*/
     }/*h2:hover{color:#099;}*/
-	
+    h2
+	{
+		margin-bottom:20px;
+	}
     img
 	{
-		width:30%; /*Define Image Fluid Width*/
+		width:25%; /*Define Image Fluid Width*/
 		border:0; /*For IE*/
 	}	
     
@@ -179,7 +187,7 @@
     {
         background-color:#fff; /*Page Background Colour*/
         color:#099; /*Page Text Colour*/
-        font-family: 'Quicksand Light', sans-serif; /*Font, Please Also Change Font Embed Link at Top of Page*/
+        font-family: 'Quicksand', sans-serif; /*Font, Please Also Change Font Embed Link at Top of Page*/
     }
 
     #barpercent h3
@@ -207,10 +215,10 @@
     
 <style>
     /*Responsive Stylesheet*/
-    @media screen and (max-width:600px)
+    @media screen and (max-width:700px)
     {
     img{
-        width:50%;
+        width:40%;
     }
     h1
     {
@@ -233,7 +241,7 @@
 
     }
     
-     @media screen and (max-width:300px)
+     @media screen and (max-width:400px)
     {
     img{
         width:80%;
@@ -255,7 +263,8 @@
 
     h3
     {
-        font-size:.8em;
+        white-space:nowrap;
+		
     }
 
     }
@@ -264,7 +273,7 @@
 	<!--Title of Page--><title>Coming Soon</title>
 	</head>	
 	<body>
-        <div id="mainpg"> <!--Start Page Container-->
+        <div id="main"> <!--Start Page Container-->
             <img src="logo.png" alt=""> <!--Logo-->
 			<h1>Company Name</h1>
 			<h2>Our website is currently under construction. </h2>
