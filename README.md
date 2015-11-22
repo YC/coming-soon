@@ -11,5 +11,5 @@ Upcoming Features:
 More Multi Browser Support,
 Documentation
 
-[Demo](http://cfws.github.io/coming-soon/)
+[Demo](http://yc.github.io/coming-soon/)
 ![alt tag](image/scr.png)

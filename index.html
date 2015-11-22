@@ -1,296 +1,302 @@
 <!DOCTYPE html>
 <!--/*License at http://github.com/cfws/coming-soon*/-->
 <html>
-<head>
-	<meta name="google-site-verification" content="7FggGYhpbU11DrQ9--hxwjlvIPXdCfj5g17MQ0pAfyA" /><!--Webmaster Tools Verify-->
-	<meta charset="utf-8"> <!--Define Metadata Charset-->
-    <meta name=viewport content="width=device-width, initial-scale=1">
-<!--[if lt IE 9]>
+    <head>
+        <meta name="google-site-verification" content="7FggGYhpbU11DrQ9--hxwjlvIPXdCfj5g17MQ0pAfyA" /><!--Webmaster Tools Verify-->
+        <meta charset="utf-8"> <!--Define Metadata Charset-->
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<style type="text/css">
-    /*Main Page Customizable Code at Bottom of Page*/
-    
-    h1,h2,img,h3,body,html {margin:0;padding:0;} /*Basic/Quick CSS Reset*/
-    
-	html
-	{
-		height:100%;
-	}
+        <style type="text/css">
+            /*Main Page Customizable Code at Bottom of Page*/
 
-    body
-	{
-        font-family: 'Quicksand', sans-serif; /*Default Font*/
-		width:100%;
-		height:100%;
-		text-align:center; /*Align Text to Center*/
-		display:table;
-		font-weight: 300; /*Use Light Variation of Font*/
-		color:#099; /*Text Colour*/
-		-moz-animation: fadeinelement 3s; /*Mozilla*/
-		-webkit-animation: fadeinelement 3s; /*Webkit*/
-		-o-animation: fadeinelement 3s; /*Opera*/
-		-ms-animation: fadeinelement 3s; /*Microsoft*/
-		animation: fadeinelement 3s; /*Main*/
-		background-color:#fff; /*Background Colour of Page*/
-    }
+            h1,h2,img,h3,body,html {margin:0;padding:0;} /*Basic/Quick CSS Reset*/
 
-	#main
-    {
-        font-family:inherit; /*Inherit Parent Font*/
-		vertical-align:middle;
-		display:table-cell;
-		text-align:center;
-	}
-	
-    #progress
-	{
-        width:40%; /*Changes Percentage of Bar Total Width*/
-		height:1.6em; /*Text Field Height*/
-		border-radius:8px; /*Roundness of Bar*/
-        background-color:#a8a8a8; /*Background Colour of Bar*/
-		margin:0 auto; /*Center Object*/
-		border: 5px solid #a8a8a8; /*Border Colour of Bar*/
-	}
+            html
+            {
+                height:100%;
+            }
 
-    #fill
-	{
-        background-color:#0C9; /*Fill of Bar*/
-		width:40%; /*Bar Percent, Can be Customized down Below*/
-		height:100%; /*Set Bar Fill Height to 100%*/
-		border-radius:25px; /*Bar Roundness*/
-		-moz-animation: proanimate 5s; /*Mozilla*/
-		-webkit-animation: proanimate 5s; /*Webkit*/
-		-o-animation: proanimate 5s; /*Opera*/
-		-ms-animation: proanimate 5s; /*Microsoft*/
-		animation: proanimate 5s; /*Main*/
-	}
-    h2,h1
-	{
-		color:inherit; /*Inherit Colours from Body*/
-		cursor:default; /*When hover, default cursor displays*/
-        -moz-transition-duration:.6s; /*Mozilla*/
-		-ms-transition-duration:.6s; /*Microsoft*/
-		-o-transition-duration:.6s; /*Opera*/
-		-webkit-transition-duration:.6s; /*Webkit*/
-		transition-duration:.6s; /*Main*/
-        margin:10px 0; /*Top/Bottom Margin for Space*/
-    }/*h2:hover{color:#099;}*/
-    h2
-	{
-		margin-bottom:20px;
-	}
-    img
-	{
-		width:25%; /*Define Image Fluid Width*/
-		border:0; /*For IE*/
-	}	
-    
-    #barpercent h3
-    {
-        color:white; /*Bar Percentage Text*/
-        font-weight:inherit; /*Inherit Font Weight*/
-        cursor:default; /*Default Cursor on Hover color:#000;*/
-    }
-    
-    footer
-    {
-        text-align:right;
-        position:fixed;  
-        font-size:0.7em;
-        bottom:0px;
-        right:5px;
-        background-color:white;
-        background-color:rgba(255,255,255,0.5);
-        width:100%;
-    }
-    
-    footer a
-    {
-        font-size:inherit;
-        color:#0C9;
-        color:inherit;
-        text-decoration:none;
-        -moz-transition-duration:.6s; /*Mozilla*/
-		-ms-transition-duration:.6s; /*Microsoft*/
-		-o-transition-duration:.6s; /*Opera*/
-		-webkit-transition-duration:.6s; /*Webkit*/
-		transition-duration:.6s; /*Main*/
-    }
+            body
+            {
+                font-family: 'Quicksand', sans-serif; /*Default Font*/
+                width:100%;
+                height:100%;
+                text-align:center; /*Align Text to Center*/
+                display:table;
+                font-weight: 300; /*Use Light Variation of Font*/
+                color:#099; /*Text Colour*/
+                -moz-animation: fadeinelement 3s; /*Mozilla*/
+                -webkit-animation: fadeinelement 3s; /*Webkit*/
+                -o-animation: fadeinelement 3s; /*Opera*/
+                -ms-animation: fadeinelement 3s; /*Microsoft*/
+                animation: fadeinelement 3s; /*Main*/
+                background-color:#fff; /*Background Colour of Page*/
+            }
 
-    footer a:hover
-    {
-        color:#099;
-    }
+            #main
+            {
+                font-family:inherit; /*Inherit Parent Font*/
+                vertical-align:middle;
+                display:table-cell;
+                text-align:center;
+            }
+
+            #progress
+            {
+                width:40%; /*Changes Percentage of Bar Total Width*/
+                height:1.6em; /*Text Field Height*/
+                border-radius:8px; /*Roundness of Bar*/
+                background-color:#a8a8a8; /*Background Colour of Bar*/
+                margin:0 auto; /*Center Object*/
+                border: 5px solid #a8a8a8; /*Border Colour of Bar*/
+            }
+
+            #fill
+            {
+                background-color:#0C9; /*Fill of Bar*/
+                width:40%; /*Bar Percent, Can be Customized down Below*/
+                height:100%; /*Set Bar Fill Height to 100%*/
+                border-radius:25px; /*Bar Roundness*/
+                -moz-animation: proanimate 5s; /*Mozilla*/
+                -webkit-animation: proanimate 5s; /*Webkit*/
+                -o-animation: proanimate 5s; /*Opera*/
+                -ms-animation: proanimate 5s; /*Microsoft*/
+                animation: proanimate 5s; /*Main*/
+            }
+            h2,h1
+            {
+                color:inherit; /*Inherit Colours from Body*/
+                cursor:default; /*When hover, default cursor displays*/
+                -moz-transition-duration:.6s; /*Mozilla*/
+                -ms-transition-duration:.6s; /*Microsoft*/
+                -o-transition-duration:.6s; /*Opera*/
+                -webkit-transition-duration:.6s; /*Webkit*/
+                transition-duration:.6s; /*Main*/
+                margin:10px 0; /*Top/Bottom Margin for Space*/
+            }/*h2:hover{color:#099;}*/
+            h2
+            {
+                margin-bottom:20px;
+            }
+            h3
+            {
+                -moz-animation: fadeinelement 3s; /*Mozilla*/
+                -webkit-animation: fadeinelement 3s; /*Webkit*/
+                -o-animation: fadeinelement 3s; /*Opera*/
+                -ms-animation: fadeinelement 3s; /*Microsoft*/
+                animation: fadeinelement 3s; /*Main*/
+            }
+            img
+            {
+                width:25%; /*Define Image Fluid Width*/
+                border:0; /*For IE*/
+            }	
+
+            #barpercent h3
+            {
+                color:white; /*Bar Percentage Text*/
+                font-weight:inherit; /*Inherit Font Weight*/
+                cursor:default; /*Default Cursor on Hover color:#000;*/
+            }
+
+            footer
+            {
+                text-align:right;
+                position:fixed;  
+                font-size:0.7em;
+                bottom:0px;
+                right:5px;
+                background-color:white;
+                background-color:rgba(255,255,255,0.5);
+                width:100%;
+            }
+
+            footer a
+            {
+                font-size:inherit;
+                color:#0C9;
+                color:inherit;
+                text-decoration:none;
+                -moz-transition-duration:.6s; /*Mozilla*/
+                -ms-transition-duration:.6s; /*Microsoft*/
+                -o-transition-duration:.6s; /*Opera*/
+                -webkit-transition-duration:.6s; /*Webkit*/
+                transition-duration:.6s; /*Main*/
+            }
+
+            footer a:hover
+            {
+                color:#099;
+            }
 
 
-@keyframes fadeinelement /*Fades in Page*/
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}
-	
-@-webkit-keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}	
+            @keyframes fadeinelement /*Fades in Page*/
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }
 
-@-ms-keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}	
+            @-webkit-keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }	
 
-@-o-keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}	
-	
-@keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}
-	
-@-webkit-keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}	
+            @-ms-keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }	
 
-@-ms-keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}	
+            @-o-keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }	
 
-@-o-keyframes fadeinelement
-	{
-	from {opacity:0;}
-	to {opacity:1;}
-	}	
-	
-@keyframes proanimate /* Animates Bar Moving on Page Load*/
-	{from {width:0%;}} /*Main*/
-@-moz-keyframes proanimate
-	{from {width:0;}} /*Mozilla*/
-@-webkit-keyframes proanimate
-	{from {width:0%;}}	/*Webkit*/
-@-ms-keyframes proanimate
-	{from {width:0%;}}	/*Microsoft*/
-@-o-keyframes proanimate
-	{from {width:0%;}} /*Opera*/
-    
-/*User Customize Area*/
-    body
-    {
-        background-color:#fff; /*Page Background Colour*/
-        color:#099; /*Page Text Colour*/
-        font-family: 'Quicksand', sans-serif; /*Font, Please Also Change Font Embed Link at Top of Page*/
-    }
+            @keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }
 
-    #barpercent h3
-	{
-		color:white; /*Change Colour of Text (Percentage) on Progressbar*/
-	}
-    
-    #progress
-	{
-        width:40%; /*Changes Bar Container Total Width*/
-		border-radius:8px; /*Changes Roundness of Bar Container*/
-        background-color:#a8a8a8; /*Changes Background Colour of Bar Container*/
-		border: 5px solid #a8a8a8; /*Changes Border Colour of Bar Container*/
-	}
-    
-     #fill
-	{
-        border-radius:25px; /*Bar Roundness*/
-        background-color:#0C9; /*Changes Bar Colour*/
-        width:40%; /*Changes Percentage of Bar, Please also change HTML Property Below*/
-    }
+            @-webkit-keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }	
 
-/*End User Customize Area*/
-</style>	
-    
-<style>
-    /*Responsive Stylesheet*/
-    @media screen and (max-width:700px)
-    {
-    img{
-        width:40%;
-    }
-    h1
-    {
-        font-size:1.7em;
-    }
-    h2
-    {
-        font-size:1.3em;
-    }
-    #progress
-    {
-		width:80%; /*Changes Percentage of Bar Width*/
-        line-height:1.7em;
-    }
+            @-ms-keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }	
 
-    h3
-    {
-        font-size:1em;
-    }
+            @-o-keyframes fadeinelement
+            {
+                from {opacity:0;}
+                to {opacity:1;}
+            }	
 
-    }
-    
-     @media screen and (max-width:400px)
-    {
-    img{
-        width:80%;
-    }
-    h1
-    {
-        font-size:1.3em;
-    }
-    h2
-    {
-        font-size:1.1em;
-    }
-    #progress
-    {
-		width:80%; /*Changes Percentage of Bar Width*/
-        line-height:1em;
-        height:1em;
-    }
+            @keyframes proanimate /* Animates Bar Moving on Page Load*/
+            {from {width:0%;}} /*Main*/
+            @-moz-keyframes proanimate
+            {from {width:0;}} /*Mozilla*/
+            @-webkit-keyframes proanimate
+            {from {width:0%;}}	/*Webkit*/
+            @-ms-keyframes proanimate
+            {from {width:0%;}}	/*Microsoft*/
+            @-o-keyframes proanimate
+            {from {width:0%;}} /*Opera*/
 
-    h3
-    {
-        white-space:nowrap;
-		
-    }
+            /*User Customize Area*/
+            body
+            {
+                background-color:#fff; /*Page Background Colour*/
+                color:#099; /*Page Text Colour*/
+                font-family: 'Quicksand', sans-serif; /*Font, Please Also Change Font Embed Link at Top of Page*/
+            }
 
-    }
+            #barpercent h3
+            {
+                color:white; /*Change Colour of Text (Percentage) on Progressbar*/
+            }
 
-    </style>
-	<!--Title of Page--><title>Coming Soon</title>
-	</head>	
-	<body>
+            #progress
+            {
+                width:40%; /*Changes Bar Container Total Width*/
+                border-radius:8px; /*Changes Roundness of Bar Container*/
+                background-color:#a8a8a8; /*Changes Background Colour of Bar Container*/
+                border: 5px solid #a8a8a8; /*Changes Border Colour of Bar Container*/
+            }
+
+            #fill
+            {
+                border-radius:25px; /*Bar Roundness*/
+                background-color:#0C9; /*Changes Bar Colour*/
+                width:40%; /*Changes Percentage of Bar, Please also change HTML Property Below*/
+            }
+
+            /*End User Customize Area*/
+        </style>	
+
+        <style>
+            /*Responsive Stylesheet*/
+            @media screen and (max-width:700px)
+            {
+                img{
+                    width:40%;
+                }
+                h1
+                {
+                    font-size:1.7em;
+                }
+                h2
+                {
+                    font-size:1.3em;
+                }
+                #progress
+                {
+                    width:80%; /*Changes Percentage of Bar Width*/
+                    line-height:1.7em;
+                }
+
+                h3
+                {
+                    font-size:1em;
+                }
+
+            }
+
+            @media screen and (max-width:400px)
+            {
+                img{
+                    width:80%;
+                }
+                h1
+                {
+                    font-size:1.3em;
+                }
+                h2
+                {
+                    font-size:1.1em;
+                }
+                #progress
+                {
+                    width:80%; /*Changes Percentage of Bar Width*/
+                    line-height:1em;
+                    height:1em;
+                }
+
+                h3
+                {
+                    white-space:nowrap;
+
+                }
+            }
+        </style>
+        <!--Title of Page--><title>Coming Soon</title>
+    </head>	
+    <body>
         <div id="main"> <!--Start Page Container-->
             <img src="logo.png" alt=""> <!--Logo-->
-			<h1>Company Name</h1>
-			<h2>Our website is currently under construction. </h2>
+            <h1>Company Name</h1>
+            <h2>Our website is currently under construction. </h2>
             <div id="progress"><div id="fill"><div id="barpercent"><h3>40%</h3></div></div></div>
         </div> <!--End Page Container-->
         <footer><a href="http://github.com/cfws/coming-soon">Powered by coming-soon</a></footer>
         <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'> <!--Define Google Fonts-->
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-45591811-2', 'cfws.github.io');
-  ga('send', 'pageview');
+            ga('create', 'UA-45591811-2', 'cfws.github.io');
+            ga('send', 'pageview');
 
-	</script>
-	</body>
+        </script>
+    </body>
 </html>
