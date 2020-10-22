@@ -1,15 +1,10 @@
 Coming Soon
 ===========
-Coming Soon is a simplistic, animated and responsive "coming soon" page. 
-Coming Soon is coded in HTML5 and CSS3. 
+Coming Soon is a simplistic, animated and responsive "coming soon" page.
 
-Features:
-Multi-Browser Support (Up to Date Major Browsers),
-Responsive Design
-
-Upcoming Features:
-More Multi Browser Support,
-Documentation
+- HTML and CSS
+- Multi-Browser Support (Up to Date Major Browsers)
+- Responsive Design
 
 [Demo](http://yc.github.io/coming-soon/)
-![alt tag](image/scr.png)
+![Screenshot](image/scr.png)
