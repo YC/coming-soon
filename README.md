@@ -7,4 +7,4 @@ Coming Soon is a simplistic, animated and responsive "coming soon" page.
 - Responsive Design
 
 [Demo](http://yc.github.io/coming-soon/)
-![Screenshot](image/scr.png)
+<img src="index.svg" width="960" height="540" />
