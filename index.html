@@ -22,6 +22,9 @@
         img {
             width: 25%; /* Image width */
             border: 0; /* For IE */
+            /* Aspect ratio of image, gives initial dimension to prevent text moving down once image is loaded */
+            /* When changing logo, change this also */
+            aspect-ratio: 125 / 50;
         }
         #main {
             vertical-align: middle;
